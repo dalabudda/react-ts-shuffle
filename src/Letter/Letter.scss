@@ -1,0 +1,17 @@
+/* Mobile view */
+.Letter {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    color: white;
+    font-weight: bold;
+  }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 701px) {
+  
+}

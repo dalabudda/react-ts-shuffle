@@ -1,0 +1,14 @@
+/* Mobile view */
+.Letters {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: rgb(228, 255, 255);
+}
+
+/* Desktop view */
+@media only screen and (min-width: 701px) {
+  .Letters {
+    flex-direction: row;
+  }
+}
